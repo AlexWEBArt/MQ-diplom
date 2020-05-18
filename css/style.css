@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+h2 {
+    margin: 0;
+}
+  
+h3 {
+    margin: 0;
+}  
+
+p {
+    margin: 0;
+}
+
+.logo-text {
+    fill: white;
+}
+
+.logo-box,
+.header-logo-link,
+.header-button,
+.header-title-padding-text,
+.section-picture-box,
+.article-picture-box,
+.article-number,
+.container-footer-logo {
+    display: block;  
+}
+
+.logo-apple,
+.logo-google {
+    width: 20px;
+    
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 767px) {
+
+.header {
+    position: relative;
+
+    background-color: #000000;
+    background-image: url("../images/football_767.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.header::after {
+    content: "";
+    background-color: #090c35;
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    opacity: 0.9;
+}
+
+.container-header {
+    position: relative;
+    padding-right: 6%;
+    padding-left: 6%;
+    z-index: 1;
+
+    padding-bottom: 85px;
+}
+
+.logo-text {
+    width: 41.4%;
+
+    margin-top: 33px;
+    margin-left: 29.3%;
+    margin-right: 29.3%;
+}
+
+.header-title {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    margin-top: 135px;
+}
+
+.header-title-padding-text {
+    padding-left: 12.5%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #5e42b0;
+
+    font-family: OpenSans-Regular, sans-serif;
+    font-weight: 8px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-apple {
+    margin-top: 89px;
+}
+
+.button-google {
+    margin-top: 14px;
+}
+
+.logo-button {
+    fill: white;
+}
+
+.bold {
+    font-family: OpenSans-Bold;
+}
+
+.section-title {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.section-picture-box {
+    position: relative;
+
+    height: 225px;
+
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.footballer {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 22%;
+}
+
+.section-content-first {
+    background-color: #e7e7e7;
+    padding-top: 35px;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-bottom: 54px;
+
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.number-line {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.number-line::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 4px;
+    background-color: #5e42b0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-title {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 23px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+
+    margin-bottom: 26px;
+    margin-left: 3%;
+}
+
+.section-text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.section-content-second {
+    background-color: #f5f4f9;
+}
+
+.section-content-third {
+    background-color: #5e42b0;
+}
+
+.basketballer {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 3%;
+}
+
+.section-content-first-basketballer {
+    background-color: #e7e7e7;
+    padding-top: 28px;
+}
+
+.section-content-third-basketballer {
+    background-color: #090c35;
+}
+
+.number-line-basketballer {
+    color: #5e42b0;
+}
+
+.number-line-basketballer::after {
+    background-color: #ffffff;
+}
+
+.basketballer-text {
+    color: #ffffff;
+}
+
+.article-picture-box {
+    position: relative;
+}
+
+.article-picture {
+    width: 100%;
+}
+
+.box-number {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+
+    top: 82%;
+    right: 0;
+    bottom: 0;
+    left: 6%;
+
+    background-color: #5e42b0;
+    
+}
+
+.text-box {
+    padding-top: 34px;
+    padding-right: 6%;
+    padding-bottom: 77px;
+    padding-left: 6%;
+}
+
+.article-title {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 28px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+
+    margin-bottom: 25px;
+}
+
+.article-text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 16px;
+    color: #000000
+}
+
+.footer {
+    position: relative;
+
+    background-color: #000000;
+    background-image: url("../images/game_767.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.footer::after {
+    content: "";
+    background-color: #090c35;
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    opacity: 0.9;
+}
+
+.container-footer {
+    position: relative;
+
+    padding-top: 100px;
+    padding-right: 6%;
+    padding-left: 6%;
+
+    z-index: 1;
+}
+
+.container-footer-logo {
+    width: 74px;
+    height: 74px;
+    background-color: #5e42b0;
+    border-radius: 25%;
+
+
+    margin: 0px 102px 60px;
+}
+
+.footer-logo {
+    width: 57px;
+    fill: #ffffff;
+    
+    
+}
+
+.footer-text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 14px;
+    color: #9b8ec1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer-bold {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.footer-logo-text {
+    margin-top: 25%;
+    margin-bottom: 3%;
+}
+}
