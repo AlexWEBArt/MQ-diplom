@@ -927,7 +927,7 @@ p {
 /*-----------------------------------------------------------------------
 -----------------------------------------------------------------------*/
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) {
     .header {
         position: relative;
     
@@ -1030,6 +1030,11 @@ p {
         font-family: OpenSans-Bold, sans-serif;
     }
 
+    .content-container-footboll,
+    .content-container-basketboll {
+        overflow: hidden;
+    }
+
     .footboll-title,
     .basketboll-title {
         margin-top: 118px;
@@ -1053,9 +1058,9 @@ p {
         height: 901px;
 
         top: -200px;
-        right: 0;
+        right: 50%;
         bottom: 0;
-        left: 18%;
+        left: 0;
     }
 
     .footboll-content,
@@ -1242,8 +1247,9 @@ p {
         box-sizing: border-box;
         width: 50%;
 
-        padding-top: 11.9%;
+        padding-top: 10.5%;
         padding-right: 10.6%;
+        padding-bottom: 3%;
         padding-left: 6.5%;
     }
     
